@@ -1,0 +1,62 @@
+{
+  "model_version": "MGT-ICEBERG-2024-01",
+  "benchmark_status": "confirmed",
+  "scope": "适用于互联网/科技公司运营、产品类管培生项目，观察期 18 个月，不适用于纯销售或技术研发岗位。",
+  "success_definition": {
+    "observation_months": 18,
+    "retention_definition": "入职满 18 个月且持续在岗",
+    "internalization_definition": "完成核心轮岗并能够独立负责项目",
+    "growth_definition": "绩效达到 B+ 及以上，或通过骨干认定",
+    "sample_note": "成功样本为过去 3 年留存的运营/产品管培生"
+  },
+  "success_sample_basis": "基于 28 名运营/产品管培生，留存 22 名，观察期 18-36 个月，绩效数据来自主管评估和 HR 系统。样本主要来自华东和华南区域，北方区域样本较少。",
+  "above_water_indicators": [
+    {
+      "indicator": "具有运营、产品或项目管理相关的实习/项目经历",
+      "priority": "must",
+      "observable_evidence": ["简历中的相关岗位实习", "主导或参与的项目描述", "量化成果"],
+      "note": "无相关经历者需人工评估可迁移能力"
+    },
+    {
+      "indicator": "在复杂情境中展现协调和推进能力",
+      "priority": "preferred",
+      "observable_evidence": ["跨团队协作经历", "资源受限下的解决方案", "复盘和沉淀"],
+      "note": "通过面试问答验证"
+    },
+    {
+      "indicator": "有数据驱动或量化思维的习惯",
+      "priority": "bonus",
+      "observable_evidence": ["用数据衡量成效", "分析改进的具体案例"],
+      "note": "加分项，非必需"
+    }
+  ],
+  "dimensions": {
+    "motivation": {
+      "definition": "驱动候选人在工作挑战中持续投入、主动承担的内在动力",
+      "behavioral_anchors": ["主动承担超出职责范围的任务", "在困难面前不轻易放弃", "关注长期价值而非短期利益"],
+      "benchmark_score": 78
+    },
+    "trait": {
+      "definition": "在压力、变化和协作环境中的稳定行为风格",
+      "behavioral_anchors": ["在变化中保持节奏和条理", "主动沟通和同步信息", "推动问题闭环而非搁置"],
+      "benchmark_score": 75
+    },
+    "self_concept": {
+      "definition": "对自身角色、能力边界和发展方向的认知",
+      "behavioral_anchors": ["清晰认知自身优势和待改进点", "能基于反馈调整行为", "有与业务相关的发展规划"],
+      "benchmark_score": 72
+    },
+    "values": {
+      "definition": "在工作取舍、风险沟通、协作中的价值判断",
+      "behavioral_anchors": ["在速度与质量冲突时能透明沟通风险", "重视承诺和闭环", "关注团队和业务的长期利益"],
+      "benchmark_score": 80
+    }
+  },
+  "weights": {
+    "motivation": 0.30,
+    "trait": 0.25,
+    "self_concept": 0.20,
+    "values": 0.25
+  },
+  "review_note": "2024-01 版本，基于 28 名管培生样本校准，适用于运营/产品类岗位招聘评估"
+}
