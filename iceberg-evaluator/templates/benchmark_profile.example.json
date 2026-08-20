@@ -1,0 +1,65 @@
+{
+  "model_version": "MGT-ICEBERG-YYYY-NN",
+  "benchmark_status": "draft",
+  "scope": "填写适用的管培生项目、岗位族、业务单元、培养批次与不适用范围。",
+  "success_definition": {
+    "observation_months": 18,
+    "retention_definition": "入职满规定观察期且持续在岗",
+    "internalization_definition": "完成核心培养或轮岗，能够独立承担关键职责",
+    "growth_definition": "达到业务确认的绩效、能力成长或骨干认定标准",
+    "sample_note": "成功标签不得使用面试通过、刚入职或观察期未满的人员。"
+  },
+  "success_sample_basis": "填写：成功样本数量、岗位/批次覆盖、观察期、结果来源及主要限制。例如：12 名运营管培生，均留存满 18 个月且完成轮岗；样本主要来自华东工厂，暂不适用于纯销售岗位。",
+  "above_water_indicators": [
+    {
+      "indicator": "岗位相关的教育、经历、项目或实务基础",
+      "priority": "must",
+      "observable_evidence": ["简历中的职责、项目、成果、轮岗或实习事实"],
+      "note": "仅填写与岗位任务直接相关的外显筛选项；材料未写到不等于自动排除。"
+    },
+    {
+      "indicator": "在变化情境中推进协作与问题闭环的经历",
+      "priority": "preferred",
+      "observable_evidence": ["异常处理、跨团队协调、试点、量化改进或复盘沉淀"],
+      "note": "用于寻访优先级和面试补证，不作为不当排除条件。"
+    }
+  ],
+  "dimensions": {
+    "motivation": {
+      "definition": "驱动候选人在工作挑战中持续投入、主动承担和推动结果的内在力量。",
+      "behavioral_anchors": ["主动承担具有挑战的工作", "在资源受限或边界不清时主动澄清并持续推进", "关注结果闭环而非一次性完成"],
+      "benchmark_score": 80
+    },
+    "trait": {
+      "definition": "在压力、变化与协作环境下呈现的稳定工作行为风格。",
+      "behavioral_anchors": ["在变化中保持任务拆解和跟踪节奏", "核验关键信息并持续追踪问题", "能推进协作但不以主观标签替代行为证据"],
+      "benchmark_score": 78
+    },
+    "self_concept": {
+      "definition": "候选人对角色、能力边界、发展方向及改进方式的认知。",
+      "behavioral_anchors": ["能说明自身职责边界和团队角色", "能基于反馈反思并采取具体改进", "对发展方向有工作相关且可检验的认识"],
+      "benchmark_score": 75
+    },
+    "values": {
+      "definition": "候选人在工作取舍、风险呈报、客户与团队协作中的行为价值判断。",
+      "behavioral_anchors": ["在速度与质量冲突时能透明呈报风险", "在团队协作中承担责任并重视长期价值", "以具体行为体现业务确认的组织准则"],
+      "benchmark_score": 82
+    }
+  },
+  "weights": {
+    "motivation": 0.3,
+    "trait": 0.25,
+    "self_concept": 0.2,
+    "values": 0.25
+  },
+  "governance": {
+    "business_owner": "",
+    "hr_owner": "",
+    "approved_at": "",
+    "sample_size": 0,
+    "outcome_data_source": "",
+    "approval_note": "保持 benchmark_status=draft，直至业务负责人和 HR 完成真实样本审阅并填写本节。"
+  },
+  "organization_values": ["填写业务确认的行为准则及其工作场景解释"],
+  "review_note": "由招聘与业务负责人审阅适用范围、成功样本基础、外显指标、四维锚点和权重后，将 benchmark_status 改为 confirmed；记录版本变更原因。"
+}
