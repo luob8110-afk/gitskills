@@ -1,6 +1,0 @@
-# iceberg-evaluator 运行依赖
-# 说明：
-# - 仅真实模型调用路径会使用 openai SDK；--dry-run 与离线自动化测试不依赖真实 API。
-# - 不声明未使用依赖；不在此固定 API Key、base_url 或模型名。
-# - 自动化测试使用 Python 标准库 unittest，无需额外测试依赖。
-openai>=1.0.0
